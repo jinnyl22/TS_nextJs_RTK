@@ -26,3 +26,9 @@ type Props = {
 ### window.ethereum 사용시
 
 - index.d.ts에 interface 정의 해준 후 사용해야 인식함
+
+
+### configureStore 사용시
+- 기본으로 미들웨어는 Thunk
+- devTools는 true로 되어있다
+saga를 사용할때만 미들웨어를 따로 설정해주면 됨
